@@ -1,0 +1,42 @@
+h1, p {
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+background-color: #8EA8C3;
+padding: 3%;
+} 
+
+.strong-blue {
+color: #222E50;
+}
+
+.list-size, .link-size {
+font-size: 21px;
+}
+
+#descricao {
+position: absolute;
+top: 30%;
+left: 30%;
+}
+
+#selfie {
+float: left;
+height: 280px;
+padding: 10px;
+background-color: aqua;
+}
+
+#container-selfie {
+height: 300px;
+position: relative;
+}
+
+#nome {
+text-align: center;
+}
+
+ul li:nth-child(odd) {
+    background-color: aqua;
+}

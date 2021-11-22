@@ -1,58 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-      <meta charset="UTF-8">
-      <title>Pedro Guilherme Perrella</title>
-      <style>
-          h1, p {
-              font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-          }
-          
-          body {
-              background-color: #8EA8C3;
-          } 
-
-          .strong-blue {
-              color: #222E50;
-          }
-
-          .list-size, .link-size {
-              font-size: 21px;
-          }
-
-      </style>
-    </head>
-    <body>
-        <a href="#nome"> NOME COMPLETO </a>
-        <br>
-        <a href="#selfie"> FOTO </a>
-        <br>
-        <a href="#descricao"> DESCRIÇÃO </a>     
-        <br>
-        <a href="#habilidade"> HABILIDADES </a>
-        <br>
+<head>
+    <meta charset="UTF-8">
+    <title>Pedro Guilherme Perrella</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#nome"> NOME COMPLETO </a>
+    <br>
+    <a href="#selfie"> FOTO </a>
+    <br>
+    <a href="#descricao"> DESCRIÇÃO </a>     
+    <br>
+    <a href="#habilidade"> HABILIDADES </a>
+    <br>
+    <div>
         <h1 id="nome">Pedro Guilherme dos Santos Perrella</h1>
-        <img src="Selfie.jpeg" alt="Selfie no meu quarto. :)" id="selfie" width="300px">
-        <p id="descricao"> <strong class="strong-blue">Brasileiro, 25 anos,</strong> nascido e criado na Penha de França, zona leste de São Paulo, mas
+        <div id="container-selfie">
+            <img src="Selfie.jpeg" alt="Selfie no meu quarto. :)" id="selfie" width="300px">
+            <p id="descricao"> <strong class="strong-blue">Brasileiro, 25 anos,</strong> nascido e criado na Penha de França, zona leste de São Paulo, mas
             resido em Guarulhos. <strong class="strong-blue">Formado em Ciências Contábeis</strong> pela UNG e <em> aualmente em transição de carreira
             para a área de desenvolvimento web.</em>
-        </p>
-        <h3 id="habilidade"> Habilidades que mais me orgulho</h3>
-        <ul class="list-size">
-            <li>Capacidade de aprender rápido</li>
-            <li>Organização</li>
-            <li>Lógica</li> 
-        </ul>
-        <h3>Outras habilidades</h3>
-        <ul class ="list-size">
-            <li>Unix & Bash</li>
-            <li>Internet</li>
-            <li>Git & GitHub</li>
-            <li>HTML</li>
-            <li>CSS</li>
-        </ul>
-        <a class="link-size" href="#selfie"> Pedro </a>
-        <br>
-        <a class="link-size" href="https://blog.betrybe.com/" target="_blank"> Blog da Trybe </a>
-    </body>
+            </p>
+        </div>
+    </div>
+    <h3 id="habilidade"> Habilidades que mais me orgulho</h3>
+    <ul class="list-size">
+        <li>Capacidade de aprender rápido</li>
+        <li>Organização</li>
+        <li>Lógica</li> 
+    </ul>
+    <h3>Outras habilidades</h3>
+    <ul class ="list-size">
+        <li>Unix & Bash</li>
+        <li>Internet</li>
+        <li>Git & GitHub</li>
+        <li>HTML</li>
+        <li>CSS</li>
+    </ul>
+    <a class="link-size" href="#selfie"> Pedro </a>
+    <br>
+    <a class="link-size" href="https://blog.betrybe.com/" target="_blank"> Blog da Trybe </a>
+</body>
 </html>
